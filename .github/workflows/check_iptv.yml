@@ -2,7 +2,7 @@ name: IPTV 直播源自动检测
 
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 5 */3 * *'
   workflow_dispatch:
 
 # 关键：给工作流添加写入权限
